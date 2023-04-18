@@ -1,8 +1,12 @@
 # Gunpla Backlog Organizer
 
-A small program in C that utilizes file processing to take in data and append new data to make a list of the gunpla I have made. 
+**Overview**
+This is a program that utilzies file processing in order to read and write datas to organize your needs to track your backlog of model kits. 
 
-![background](https://user-images.githubusercontent.com/79687001/232763575-8340bb46-309f-4ed8-9285-d8832d5dda6a.jpg)
+![background long](https://user-images.githubusercontent.com/79687001/232764540-92db84ab-9b5c-4255-a34c-e7d64142a219.jpg)
+
+
+**Features** 
 
 
 **V1.0**
