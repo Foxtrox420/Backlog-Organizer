@@ -14,6 +14,7 @@ The main menu offers 3 options, adding a new entry, updating an entry as well as
 
 ## Adding Entry 
 When selected, the user will be introduced to some basic tasks. Currently the only ones that are supported are gunpla kits and currency is only in rupiah (Indonesian Currency). Since this is an open source code, you can modify it to your liking. 
+
 ![image](https://user-images.githubusercontent.com/79687001/232766223-99ab326c-a461-44b4-ac48-012f9e07017a.png)
 
 ## View Entry
