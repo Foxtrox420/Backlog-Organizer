@@ -20,6 +20,7 @@ When selected, the user will be introduced to some basic tasks. Currently the on
 When the view entry (third option) is selected, it will display all of the entries that were added previously).
 Green color is used to indicate that the model kit is finished being built and Red color is used to indicate that it is unfinished.
 ![image](https://user-images.githubusercontent.com/79687001/232766986-aadd0de8-7b0a-4f27-b5dd-69a5e9987c3f.png)
+
 If updated to unfinished (will discuss in the next point)
 ![image](https://user-images.githubusercontent.com/79687001/232767543-d31bf37c-a700-474f-a357-7db9991bf457.png)
 
