@@ -40,7 +40,7 @@ Here is what the view entry looks like after an update
 
 This program is still really buggy, especially with the update poriton. When the bug is fixed, it will be updated in this README. 
 
-**V1.0**
+# **V1.0**
 + Added gunpla listing functions (Add and edit)  
 - Removed redundant Functions 
 
