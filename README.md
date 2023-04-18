@@ -27,6 +27,7 @@ If updated to unfinished (will discuss in the next point)
 ## Update Entry
 When update entry is selected, the user will have to put the credentials of the model that they want to update. 
 After updating, the list will change colors and values depending on what is being changed. 
+
 ![image](https://user-images.githubusercontent.com/79687001/232768005-f664e05d-8587-462d-8208-408b7630f157.png)
 
 Here is what the view entry looks like after an update
