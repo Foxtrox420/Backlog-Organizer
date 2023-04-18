@@ -8,6 +8,8 @@ This is a program that utilzies file processing in order to read and write datas
 
 ## Features
 
+### Main Menu 
+![image](https://user-images.githubusercontent.com/79687001/232765525-7a8f3e92-26f8-457a-994a-ad71db5c5ceb.png)
 
 
 **V1.0**
