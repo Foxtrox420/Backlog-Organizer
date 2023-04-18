@@ -4,3 +4,5 @@ A small program in C that utilizes file processing to take in data and append ne
 
 V1.0 
 + Added gunpla listing functions (Add and edit)  
+- Removed redundant Functions 
+
