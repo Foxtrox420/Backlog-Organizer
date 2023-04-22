@@ -48,6 +48,8 @@ This program is still really buggy, especially with the update poriton. When the
 + Improved table design
 ![image](https://user-images.githubusercontent.com/79687001/233794137-a48d1555-84e5-4555-8b00-f5f015d2851d.png)
 + Added tracker for finished and unfinished gunpla 
++ 
 ![image](https://user-images.githubusercontent.com/79687001/233794191-3835e170-520f-414f-9461-1c8b670bc293.png)
+
 + Changed the text when displaying data from numbers to words 
 ![image](https://user-images.githubusercontent.com/79687001/233794081-33f104a2-74f1-4539-a227-efa3ed068373.png)
