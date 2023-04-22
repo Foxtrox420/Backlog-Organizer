@@ -39,7 +39,7 @@ int main(){
 	char name[150], searchName[150], searchType[50], type[50];  
 	int input, status, price, year, qty, n = 0, updateStatus, updatePrice; 
 	char option1[2], option2[2]; 
-	int size = sizeof(database), first = 0, count = 0; 
+	int size = sizeof(database), first = 0, count = 0, finished = 0, unfinished = 0; 
 	
 
 	FILE *read = fopen("data.txt", "r"); 
@@ -110,21 +110,31 @@ int main(){
 				break; 
 			case 3 :
 				system("cls"); 
-				printf("_________________________________________________________________________________________________\n");
+				printf("===========================================================================================================\n");
+				printf("| %-50s | %-10s | %-5s | %-5s  | %-20s |\n", "Gunpla Name", "Type/Grade", "Year", "Price", "Status");
+				printf("===========================================================================================================\n");
 				for(int i = 0; i < n; i++){
 					if(Datas[i].status == 1){
 						green();
+						printf("| %-50s | %-10s | %-5d | %-5dK | %-20s |\n",Datas[i].name, Datas[i].type, Datas[i].year, Datas[i].price, "Status = Finished");
+						finished++;
 					}
 					else{
 						red(); 
+						printf("| %-50s | %-10s | %-5d | %-5dK | %-20s |\n",Datas[i].name, Datas[i].type, Datas[i].year, Datas[i].price, "Status = Unfinished");
+						unfinished++; 
 					}
-					printf("| %-50s | %-10s | %-5d | %-5dK | Status = %d |\n",Datas[i].name, Datas[i].type, Datas[i].year, Datas[i].price, Datas[i].status);
+					
 					count += Datas[i].price; 
 				}
 				reset();
-				printf("_________________________________________________________________________________________________\n");
+				printf("===========================================================================================================\n");
+				printf("\n\n");
 				printf("Total Kits  = [%d]\n", n); 
 				printf("Total Price = [%d K]\n", count);
+				printf("Finished Kits = [%d]\n", finished); 
+				printf("Unfinished Kits = [%d]\n", unfinished); 
+				printf("\n\n");
 			break; 
 		} 
 		if(input == 3){
