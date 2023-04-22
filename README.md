@@ -44,3 +44,7 @@ This program is still really buggy, especially with the update poriton. When the
 + Added gunpla listing functions (Add and edit)  
 - Removed redundant Functions 
 
+#**V.1.2 PATCH NOTES**
++ Improved table design
++ Added tracker for finished and unfinished gunpla 
+
